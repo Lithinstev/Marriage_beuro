@@ -1,0 +1,234 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(images1/background.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #bfb5b5;
+    position: absolute;
+    left: 0;
+    bottom: -10;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #0239600;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+     width: 100%; 
+
+}
+button:hover{
+    border: none;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #f2e9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.Gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 18rem;
+}
+.img-box{
+    width: 100px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 50px;
+    background: url(images1/wed.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: width 0.5s;
+}
+.img-box:nth-child(2){
+    background: url(images1/b2.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.img-box:nth-child(3){
+    background: url(images1/h2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-box:nth-child(4){
+    background: url(images1/c3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img-box h3{
+    color: #b74b4b;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    opacity: 0;
+    transition:bottom 0.5s, opacity 0.5s;
+}
+.img-box:hover{
+    width: 1000px;
+    cursor: pointer;
+}
+.img-box:hover h3{
+    opacity: 1;
+    bottom: 25px;
+}
+
+.top{
+    width: 100%;
+    position: absolute;
+    top: 110%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #ffffff;
+}
+.top h1{
+    font-size: 70px;
+    margin-top: 80px;
+    font-family: cursive;
+}
+.container{
+    background-color: #070707;
+}
+ul li{
+    display: inline;
+    position: relative;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    text-align: left;
+    text-decoration: none;
+    font-size: 30px; 
+}
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown {
+    width: 140%;
+    background: #22438c;
+    position: absolute;
+    z-index: 999;
+    display: none;
+    transition: 0.5s;
+} 
+ul li :hover {
+    background: #112c66;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px ;
+    background-color: rgba(179, 126, 126, 0.717);
+    transition: 0.5s;
+}
+.h4{
+    text-align: center;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.col{
+    background-color: #070707;
+    text-align: center;
+}
+.cell{
+    text-align: center;
+    background-color: #070707;
+    color: #009688;
+    padding: 15px -80%;
+    padding-bottom: 20px;
+  
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="log.css">
+  <style background: black;>
+    
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+    }
+   
+
+    .container {
+      width: 300px;
+      margin: 100px auto;
+      border: 1px solid #ccc;
+      padding: 30px;
+      background-color: #f9f9f9;
+      background-image: url(images1/download.jpg);
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 16px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 16px;
+    }
+
+    input[type="submit"],
+    .login-with-gmail {
+      width: 100%;
+      background-color: #b7e1b9;
+      color: rgb(0, 0, 0);
+      border: none;
+      padding: 16px;
+      cursor: pointer;
+      margin-bottom: 16px;
+      text-align: center;
+      transition: 0.5s;
+    }
+
+    input[type="submit"]:hover,
+    .login-with-gmail:hover {
+      background-color: #f4dcdc;
+      width: 300px;
+      color: rgb(255, 255, 255);
+    }
+
+    .login-with-gmail {
+      background-color: #ff0000;
+      text-align: center;
+      width: 90%;
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <form action="c:\Users\siddh\OneDrive\Desktop\event management\" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <input type="submit" value="Login">
+    </form>
+    <div class="login-with-gmail">
+      <a href="https://accounts.google.com/o/oauth2/auth?client_id=YOUR_CLIENT_ID&redirect_uri=YOUR_REDIRECT_URI&response_type=code&scope=email%20profile">Login with Gmail</a>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,130 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    width: flex;
+    height: flex;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images1/fix.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: black;
+}
+.navbar{
+    height: 5%;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+.card{
+    width: 500px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 5px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-image: url(images1/m1.jpg);
+    background-position: center;
+    background-size: cover; 
+    transform: 0.5s;
+}
+.card2{
+    background-image: url(images1/m2.jpg);
+}
+.card3{
+    background-image: url(images1/b3.jpg);
+}
+.card4{
+    background-image: url(images1/m4.jpg);
+}
+.card:hover{
+    transform: translateY(-15px);
+    border: 4px solid rgb(231, 225, 225) ;
+
+    
+
+}
+.h5{
+    color: #ffffff;
+    text-shadow: 0 0 5px #ffffff;
+}
+.card5{
+    background-image: url(images1/b1.jpg);
+}
+.card6{
+    background-image: url(images1/b2.jpg);
+}.card7{
+    background-image: url(images1/b3.jpg);
+}.card8{
+    background-image: url(images1/b4.jpg);
+}
+
+
+.card9{
+    background-image: url(images1/h1.jpg);
+}
+.card10{
+    background-image: url(images1/h2.jpg);
+}
+.card11{
+    background-image: url(images1/h3.jpg);
+}
+.card12{
+    background-image: url(images1/h3.jpg);
+}
+
+
+
+.card13{
+    background-image: url(images1/r1.jpg);
+}
+
+.card14{
+    background-image: url(images1/r2.jpg);
+}
+.card15{
+    background-image: url(images1/r3.jpg);
+}
+.card16{
+    background-image: url(images1/r3.jpg);
+}
+.text{
+    color: #35de02;
+    padding: 15px 25px;
+    width: 200px;
+    height: 40px;
+    text-align: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    position: center;
+}
+.re{
+    background-color: black;
+    color: #35de02;
+    background-position:cover;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images1/siddhu.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+.card17{
+    background-image: url(images1/c1.jpg);
+}
+.card18{
+    background-image: url(images1/c2.jpg);
+}
+.card19{
+    background-image: url(images1/c3.jpg);
+}
+.card20{
+    background-image: url(images1/c4.jpg);
+}
+
